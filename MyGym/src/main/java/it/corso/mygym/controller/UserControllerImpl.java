@@ -42,10 +42,10 @@ public class UserControllerImpl implements UserController {
         return new ResponseEntity<>(findAllUsers, HttpStatus.FOUND);
     }
 
-
-
-
-
+    @Override
+    public ResponseEntity<User> update(Long id, UserDto userDto) {
+        return null;
+    }
 
 
 }
