@@ -23,6 +23,7 @@
 
 	<modules>
 		<module>MyGym</module>
+		<module>Eureka</module>
 	</modules>
 
 	<dependencies>
